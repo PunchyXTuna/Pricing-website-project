@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #212240;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.pricing{
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    gap: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+.card{
+    border-radius: 10px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(204, 204, 204);
+}
+.card h2{
+    padding: 10px;
+    margin: 20px;
+}
+.card-free h2{
+    background-color: #f7f8fa;
+}
+.card-pro h2{
+    background: linear-gradient(to right, #b9ddfe 0%, #aa74fd 100%);
+}
+.card-entreprise h2{
+    background: linear-gradient(to right, #fda7b4 0%, #fdc070 100%);
+}
+.price{
+    font-weight: bolder;
+    font-size: 70px;
+    margin: 50px;
+}
+.dollar{
+    font-size: 40px;
+}
+.month{
+    font-size: 15px;
+}
+.price-info{
+    margin: 20px;
+}
+.main-text{
+    margin: 20px;
+}
+.btn{
+    text-align: center;
+    border: 15px thin;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    color: #212240;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #212240;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #212240;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #212240;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    margin-top: 50px;
+    margin: 40px;
+}
